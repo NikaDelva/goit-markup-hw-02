@@ -63,14 +63,12 @@ body {
     color:var(--brand-color);
 }
 
-/*поставила background colour, щоб не коментувати колір тексту*/
+/*не ставила background colour, закоментувала колір тексту*/
 .hero-name {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
-    background-color:var(--dark-theme);
-
+    /*color: #FFFFFF;*/
 }
 .modal-button {
     background: #4D5AE5;
