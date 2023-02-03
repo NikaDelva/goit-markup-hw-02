@@ -31,10 +31,13 @@ body {
     font-size: 18px;
     line-height: 1.33;
     color:var(--dark-theme);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .accent {
     color:var(--brand-color);
+
 }
 
 .main-menu-link {
@@ -49,6 +52,7 @@ body {
 .main-menu-link:focus {
     color:var(--brand-color);
 }
+
 
 .address-menu-link {
     font-style: normal;
@@ -65,20 +69,19 @@ body {
 
 /*не ставила background colour, закоментувала колір тексту*/
 .hero-name {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     /*color: #FFFFFF;*/
 }
 .modal-button {
-    background: #4D5AE5;
+    background:var(--brand-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.33;
     color: #FFFFFF;
     cursor: pointer;
+    font-family: inherit;
 }
 
 .modal-button:hover, 
@@ -91,7 +94,16 @@ body {
     line-height: 1.2;
     /* identical to box height, or 120% */
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color:var(--dark-theme);
+}
+
+.title-two {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--dark-theme);
 }
 
 .text-description {
@@ -106,10 +118,33 @@ body {
     border: 1px solid var(--accent);
     border-radius: 4px;
     color: var(--brand-color);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    font-family: inherit;
 }
 .filter-button:hover,
 .filter-button:focus {
     background-color:var(--pressed-state);
     color: #FFFFFF;
     cursor: pointer;
+}
+
+.footer-style {
+    background-color:var(--dark-theme);
+}
+.footer-text-style {
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+
+}
+
+.footer-accent {
+    color: #F4F4FD;
+}
+
+.page-open {
+    color: purple;
 }
